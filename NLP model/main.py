@@ -149,7 +149,7 @@ def predict_sentiment(review: str):
     return result
     
     
-results = predict_sentiment(review))
+results = predict_sentiment(review)
 print(results["prediction"])
 print(results["Probability"])
 
