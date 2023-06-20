@@ -28,6 +28,7 @@ This repository contains information and resources related to Large Language Mod
 
 - [Paper: "Attention is All You Need"](https://arxiv.org/abs/1706.03762)
 - [OpenAI GPT-3 Documentation](https://platform.openai.com/docs/guides/gpt-3)
+- [IMDB movie dataset](https://www.kaggle.com/c/word2vec-nlp-tutorial/data?ref=hackernoon.com)
 
 Feel free to explore the contents of this repository to learn more about LLMs, NLP, and their applications. If you have any questions or suggestions, please feel free to open an issue or reach out via the provided contact information.
 
