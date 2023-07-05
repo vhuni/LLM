@@ -39,7 +39,7 @@ np.random.seed(123)
 
 
 # load data
-data = pd.read_csv("../data/labeledTrainData.tsv", sep='\t')
+data = pd.read_csv("../dataset/word2vec-nlp-tutorial/labeledTrainData.tsv", sep='\t')
 
 # show top five rows of data
 data.head()
@@ -148,7 +148,10 @@ def predict_sentiment(review: str):
     result = {"prediction": sentiments[output], "Probability": output_probability}
     return result
     
-    
+# example review
+review = "So what’s really validating is seeing a film like Transformers: Rise Of The Beasts be so faithful to the roots of the toy. It so perfectly conveys the feeling of dull grey machines slotting together without any form or reason. It expertly captures how all our human characters that laced together the action scenes were, at best, serviceable stereotypes written by a MadLibs committee. We always had a single Transformer who died but then came back just at the climax, even if that story beat would have worked far better with the *other* Transformer who’d just also died (but was actually fine in the end), so it was great that this film continued that long-standing tradition."
+
+# testing the model to get the sentiment of the review
 results = predict_sentiment(review)
 print(results["prediction"])
 print(results["Probability"])
